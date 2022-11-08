@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-title{
+    background-color: #033e58;
+    width: 60%;
+    margin: auto;
+    height: 10vh;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 0px 40px 0px 40px;
+}
+.add-ur-new-product{
+    background-color: #033e58;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 40px 0px 40px;
+    padding-top: 40px;
+    color: aqua;
+}
+.product-info{
+    margin-bottom: 20px;
+}
+.product-info h3{
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 20px;
+}
+.product-info input{
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.product-info:nth-child(1) h3{
+    margin-right: 100px;
+}
+.product-info:nth-child(2) h3{
+    margin-right: 53px;
+}
+.product-info:nth-child(3) h3{
+    margin-right: 25px;
+}
+.product-info:nth-child(4) h3{
+    margin-right: 85px;
+}
+.product-info:nth-child(5) h3{
+    margin-right: 54px;
+}
+.product-info:nth-child(6) h3{
+    margin-right: 54px;
+}
+.product-info:nth-child(7) h3{
+    margin-right: 54px;
+}
+.product-info button{
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    color: #033e58;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.5s; 
+    margin: 0px 248px;
+}
+.product-info button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid aqua;
+    color: aqua;
+    width: 130px;
+    margin: 0px 233px;
+}
